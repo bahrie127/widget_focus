@@ -5,20 +5,39 @@ class SampleImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: SizedBox(
-        width: 100,
-        height: 100,
-        child: ClipOval(
-          child: Image.network(
-            'https://storage.googleapis.com/cms-storage-bucket/2c3d5baa79bb1e48c6e3.png',
-            fit: BoxFit.cover,
+    return const Center(
+      child: CircleAvatar(
+        radius: 150,
+        child: CircleAvatar(
+          radius: 140,
+          backgroundImage: AssetImage(
+            'assets/images/avatar.png',
           ),
         ),
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * SizedBox(

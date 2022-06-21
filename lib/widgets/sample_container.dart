@@ -10,25 +10,25 @@ class SampleContainer extends StatelessWidget {
         padding: const EdgeInsets.only(
           bottom: 30,
         ),
-        alignment: Alignment.bottomCenter,
+        alignment: Alignment.center,
         height: 300,
         width: 300,
         decoration: BoxDecoration(
-          color: Colors.blue,
-          border: Border.all(
-            color: Colors.red,
-            width: 2,
-          ),
-        ),
+            color: Colors.purple,
+            border: Border.all(
+              color: Colors.black,
+              width: 2,
+            ),
+            borderRadius: BorderRadius.circular(30)),
         child: const Text(
-          'Hello Collor',
+          'Latihan Container',
           style: TextStyle(
               fontSize: 12,
               fontWeight: FontWeight.bold,
               color: Colors.white,
               fontFamily: 'Roboto',
               fontStyle: FontStyle.italic,
-              decoration: TextDecoration.lineThrough,
+              decoration: TextDecoration.underline,
               decorationColor: Colors.green,
               decorationStyle: TextDecorationStyle.dashed,
               letterSpacing: 10),
