@@ -7,6 +7,9 @@ class SampleContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
+        padding: const EdgeInsets.only(
+          bottom: 30,
+        ),
         alignment: Alignment.bottomCenter,
         height: 300,
         width: 300,
