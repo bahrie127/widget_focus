@@ -7,6 +7,31 @@ class SampleContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
+        padding: const EdgeInsets.all(20),
+        height: 200,
+        width: 200,
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.all(
+            Radius.circular(100),
+          ),
+          image: DecorationImage(
+            fit: BoxFit.cover,
+            image: AssetImage(
+              'assets/images/avatar.png',
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+
+
+
+/**
+ * Container(
         padding: const EdgeInsets.only(
           bottom: 30,
         ),
@@ -34,9 +59,7 @@ class SampleContainer extends StatelessWidget {
               letterSpacing: 10),
         ),
       ),
-    );
-  }
-}
+ */
 
 ///text
 // Text(

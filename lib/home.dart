@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Latihan Widgets'),
       ),
-      body: const SampleImage(),
+      body: const SampleContainer(),
     );
   }
 }

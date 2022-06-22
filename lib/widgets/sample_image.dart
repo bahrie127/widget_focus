@@ -7,12 +7,9 @@ class SampleImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: CircleAvatar(
-        radius: 150,
-        child: CircleAvatar(
-          radius: 140,
-          backgroundImage: AssetImage(
-            'assets/images/avatar.png',
-          ),
+        radius: 120,
+        backgroundImage: AssetImage(
+          'assets/images/avatar.png',
         ),
       ),
     );
@@ -27,6 +24,26 @@ class SampleImage extends StatelessWidget {
 
 
 
+
+
+
+
+
+
+
+
+
+/**
+ * CircleAvatar(
+        radius: 150,
+        child: CircleAvatar(
+          radius: 140,
+          backgroundImage: AssetImage(
+            'assets/images/avatar.png',
+          ),
+        ),
+      ),
+ */
 
 
 
