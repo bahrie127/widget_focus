@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_focus/widgets/sample_card.dart';
 import 'package:widget_focus/widgets/sample_component.dart';
 import 'package:widget_focus/widgets/sample_container.dart';
 import 'package:widget_focus/widgets/sample_grid.dart';
@@ -15,7 +16,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Latihan Widgets'),
       ),
-      body: const SampleStack(),
+      body: const SampleCard(),
     );
   }
 }
