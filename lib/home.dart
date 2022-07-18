@@ -5,6 +5,7 @@ import 'package:widget_focus/widgets/sample_button.dart';
 import 'package:widget_focus/widgets/sample_card.dart';
 import 'package:widget_focus/widgets/sample_component.dart';
 import 'package:widget_focus/widgets/sample_container.dart';
+import 'package:widget_focus/widgets/sample_datetime.dart';
 import 'package:widget_focus/widgets/sample_drawer.dart';
 import 'package:widget_focus/widgets/sample_floating_action_button.dart';
 import 'package:widget_focus/widgets/sample_grid.dart';
@@ -25,7 +26,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SampleTextField();
+    return SampleDateTime();
   }
 
   // @override
