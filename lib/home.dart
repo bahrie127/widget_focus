@@ -13,6 +13,7 @@ import 'package:widget_focus/widgets/sample_list.dart';
 import 'package:widget_focus/widgets/sample_stack.dart';
 import 'package:widget_focus/widgets/sample_tabbar.dart';
 import 'package:widget_focus/widgets/sample_tabbar_view.dart';
+import 'package:widget_focus/widgets/sample_textfield.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -24,7 +25,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SampleFloatingActionButton();
+    return SampleTextField();
   }
 
   // @override
