@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widget_focus/widgets/sample_appbar.dart';
 import 'package:widget_focus/widgets/sample_bottom_navbar.dart';
 import 'package:widget_focus/widgets/sample_card.dart';
 import 'package:widget_focus/widgets/sample_component.dart';
@@ -13,7 +14,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SampleBottomNavbar();
+    return SampleAppBar();
   }
 }
 
