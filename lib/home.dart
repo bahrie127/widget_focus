@@ -6,6 +6,7 @@ import 'package:widget_focus/widgets/sample_card.dart';
 import 'package:widget_focus/widgets/sample_component.dart';
 import 'package:widget_focus/widgets/sample_container.dart';
 import 'package:widget_focus/widgets/sample_drawer.dart';
+import 'package:widget_focus/widgets/sample_floating_action_button.dart';
 import 'package:widget_focus/widgets/sample_grid.dart';
 import 'package:widget_focus/widgets/sample_image.dart';
 import 'package:widget_focus/widgets/sample_list.dart';
@@ -23,13 +24,18 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Latihan Widgets'),
-      ),
-      body: const SampleButton(),
-    );
+    return SampleFloatingActionButton();
   }
+
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     appBar: AppBar(
+  //       title: const Text('Latihan Widgets'),
+  //     ),
+  //     body: const SampleButton(),
+  //   );
+  // }
 }
 
 
