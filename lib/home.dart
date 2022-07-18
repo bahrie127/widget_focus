@@ -8,13 +8,15 @@ import 'package:widget_focus/widgets/sample_grid.dart';
 import 'package:widget_focus/widgets/sample_image.dart';
 import 'package:widget_focus/widgets/sample_list.dart';
 import 'package:widget_focus/widgets/sample_stack.dart';
+import 'package:widget_focus/widgets/sample_tabbar.dart';
+import 'package:widget_focus/widgets/sample_tabbar_view.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return SampleAppBar();
+    return SampleTabbarView();
   }
 }
 
