@@ -31,7 +31,7 @@ class SampleComponent extends StatelessWidget {
       height: 50,
       decoration: BoxDecoration(
         border: Border.all(),
-        color: Colors.purple,
+        color: Colors.black26,
       ),
     );
   }
@@ -121,7 +121,6 @@ class SampleComponent extends StatelessWidget {
         ],
       ),
  */
-
 
 /**
  * Row(

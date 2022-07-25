@@ -16,23 +16,6 @@ class SampleImage extends StatelessWidget {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * CircleAvatar(
         radius: 150,
@@ -44,17 +27,6 @@ class SampleImage extends StatelessWidget {
         ),
       ),
  */
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * SizedBox(
@@ -122,7 +94,7 @@ class SampleImage extends StatelessWidget {
 
 /**
  * Image.network(
-          'https://storage.googleapis.com/cms-storage-bucket/2c3d5baa79bb1e48c6e3.png',
+          'https://assets.hongkiat.com/uploads/nature-photography/The-best-nature-photography-collection.jpg',
           alignment: Alignment.bottomCenter,
           color: Colors.yellow,
           colorBlendMode: BlendMode.darken,
