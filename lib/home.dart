@@ -26,20 +26,20 @@ class Home extends StatelessWidget {
   //   return SampleDrawer();
   // }
 
-  @override
-  Widget build(BuildContext context) {
-    return SampleDialog();
-  }
-
   // @override
   // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //     appBar: AppBar(
-  //       title: const Text('Latihan Widgets'),
-  //     ),
-  //     body: const SampleButton(),
-  //   );
+  //   return SampleContainer();
   // }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Latihan Widgets'),
+      ),
+      body: const SampleContainer(),
+    );
+  }
 }
 
 
